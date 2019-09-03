@@ -2,7 +2,11 @@
     "posts": [{
         "id": 1,
         "title": "json-server",
-        "author": "typicode",
+        "author": {
+            "id": 1,
+            "username": "typicode",
+            "full_name": "Lorem Ipsum"
+        },
         "comments": [{
             "id": 1,
             "body": "some comment"
