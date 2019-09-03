@@ -11,6 +11,18 @@
             "id": 1,
             "body": "some comment"
         }]
+    }, {
+        "id": 2,
+        "title": "json-server-2",
+        "author": {
+            "id": 1,
+            "username": "typicode",
+            "full_name": "Lorem Ipsum"
+        },
+        "comments": [{
+            "id": 1,
+            "body": "some comment"
+        }]
     }],
     "comments": [{
         "id": 1,
