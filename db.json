@@ -31,5 +31,20 @@
     }],
     "profile": {
         "name": "typicode"
+    },
+    "cmdb": {
+        "data": {
+            "ci": [{
+                "id": 1,
+                "name": "CI 1"
+            }, {
+                "id": 2,
+                "name": "CI 2"
+            }],
+            "rel": [{
+                "ci1": 1,
+                "ci2": 2
+            }]
+        }
     }
 }
