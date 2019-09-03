@@ -1,0 +1,35 @@
+{
+    "posts": [{
+        "id": 1,
+        "title": "json-server",
+        "author": {
+            "id": 1,
+            "username": "typicode",
+            "full_name": "Lorem Ipsum"
+        },
+        "comments": [{
+            "id": 1,
+            "body": "some comment"
+        }]
+    }, {
+        "id": 2,
+        "title": "json-server-2",
+        "author": {
+            "id": 1,
+            "username": "typicode",
+            "full_name": "Lorem Ipsum"
+        },
+        "comments": [{
+            "id": 1,
+            "body": "some comment"
+        }]
+    }],
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+    "profile": {
+        "name": "typicode"
+    }
+}
